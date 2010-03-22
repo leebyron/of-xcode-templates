@@ -1,0 +1,3 @@
+The specific awesomeness of these templates, is that it allows you to create your project wherever you like, rather than requiring it be within the openFrameworks/apps/ subdirectory.
+
+Be sure to right-click and "Get Info" on the the blue project icon in XCode and change the "OF" variable to the location of your openFrameworks directory.
