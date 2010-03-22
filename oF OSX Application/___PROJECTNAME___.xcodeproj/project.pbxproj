@@ -139,6 +139,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		536C5496115818BE0070971B /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = data;
+			path = bin/data;
+			sourceTree = "<group>";
+		};
 		53DAC0AC1157DCC400318BC1 /* openFrameworksCompiled */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +277,7 @@
 				E4B69B5B0A3A1756003C02F2 /* ___PROJECTNAME___ (debug).app */,
 				E4B6FCAD0C3E899E008CF71C /* ___PROJECTNAMEASIDENTIFIER___-Info.plist */,
 				E4B69E1C0A3A1BDC003C02F2 /* source */,
+				536C5496115818BE0070971B /* data */,
 				E4C2422310CC54B6004149E2 /* openFrameworks */,
 			);
 			sourceTree = "<group>";
@@ -521,7 +530,7 @@
 				GCC_MODEL_TUNING = G4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
-				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INFOPLIST_FILE = "___PROJECTNAMEASIDENTIFIER___-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PREBINDING = NO;
 				WRAPPER_EXTENSION = app;
@@ -654,7 +663,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
-				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INFOPLIST_FILE = "___PROJECTNAMEASIDENTIFIER___-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME) (debug)";
@@ -672,7 +681,7 @@
 				GCC_MODEL_TUNING = G4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
-				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INFOPLIST_FILE = "___PROJECTNAMEASIDENTIFIER___-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PREBINDING = NO;
 				WRAPPER_EXTENSION = app;
