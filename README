@@ -1,3 +1,7 @@
 The specific awesomeness of these templates, is that it allows you to create your project wherever you like, rather than requiring it be within the openFrameworks/apps/ subdirectory.
 
+To install:
+cd ~/Library/Application\ Support/Developer/Shared/Xcode/Project\ Templates
+git clone git@github.com:leebyron/of-xcode-templates.git openFrameworks
+
 Be sure to right-click and "Get Info" on the the blue project icon in XCode and change the "OF" variable to the location of your openFrameworks directory.
